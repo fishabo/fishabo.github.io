@@ -1,0 +1,45 @@
+@import 'reset.css';
+#header {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(66, 133, 244, 1.00);
+    justify-content: space-between;
+}
+#header .contanter{
+    width: 95%;
+    height: 100%;
+    display: inline-flex;
+    border: 1px solid red;
+}
+#header .logo{
+    float: left;
+    width: 150px;
+    border: 1px solid rgba(255, 0, 0, .5);
+    text-align: center;
+}
+#header .search{
+    float: left;
+    width: calc(100% - 150px - 45px);
+    border: 1px solid rgba(255, 0, 0, .5);
+}
+#header .H_photo{
+    float: left;
+    width: 45px;
+    border: 1px solid red;
+    text-align: center;
+}
+.test .btn:hover{
+    background-color: tomato;
+    color: turquoise;
+}
+.test .btn{
+    width:  80px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: violet 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
